@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>AutoLab v1</title>
+
+      <link rel="stylesheet" href="index.css" />
+
+      <!-- Bootstrap -->
+      <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous"
+      />
+
+      <!--===============================================================================================-->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap"
+        rel="stylesheet"
+      />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500&display=swap"
+        rel="stylesheet"
+      />
+
+      <script type="text/javascript">
+        setInterval(function () {
+          var status = navigator.onLine
+            ? (document.getElementById("conn").innerText = "")
+            : (document.getElementById("conn").innerText =
+                "You are Offline!!!");
+          // console.log(status);
+        }, 5000);
+      </script>
+    </head>
+
+    <body>
+      <header class="head">
+        <div class="logo" id="mht">AutoLab</div>
+        <div class="option">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <nav class="top-nav">
+          <ul>
+            <li><a href="#home" class="tab" id="home-btn">HOME</a></li>
+            <li><a href="#room1" class="tab" id="room1-btn">ROOM 1</a></li>
+            <li><a href="#room2" class="tab" id="room2-btn">SETTINGS</a></li>
+            <li><a href="#room3" class="tab" id="room3-btn">ABOUT US</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="container-top">
+        <div class="room" id="home">
+          <p id="conn"></p>
+
+          <p id="hello">Hello! This is the lab automation project!!</p>
+        </div>
+
+        <div class="mht1">
+          <div class="room" id="room1">
+            <div class="inner-room" id="row1">
+              <img src="" alt="" id="r1_part0" class="img-room1 ind-imgs" />
+              <img src="" alt="" id="r1_part1" class="img-room1 ind-imgs" />
+            </div>
+            <div class="inner-room" id="row2">
+              <img src="" alt="" id="r1_part2" class="img-room1 ind-imgs" />
+              <img src="" alt="" id="r1_part3" class="img-room1 ind-imgs" />
+            </div>
+            <div class="inner-room" id="row2">
+              <img src="" alt="" id="r1_part4" class="img-room1 ind-imgs" />
+              <img src="" alt="" id="r1_part5" class="img-room1 ind-imgs" />
+            </div>
+            <div class="inner-room" id="row2">
+              <img src="" alt="" id="r1_part6" class="img-room1 ind-imgs" />
+              <img src="" alt="" id="r1_part7" class="img-room1 ind-imgs" />
+            </div>
+            <div class="inner-room" id="row2">
+              <img src="" alt="" id="r1_part8" class="img-room1 ind-imgs" />
+              <img src="" alt="" id="r1_part9" class="img-room1 ind-imgs" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <p>&copy; 2024 IdeaLab Automation</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <script type="module" src="index.js"></script>
+      <script type="text/javascript" src="index2.js"></script>
+      <script
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"
+      ></script>
+
+      <script src="https://kit.fontawesome.com/1b59bc20c8.js"></script>
+
+      <!--===============================================================================================-->
+      <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+      <!--===============================================================================================-->
+      <script src="vendor/animsition/js/animsition.min.js"></script>
+      <!--===============================================================================================-->
+      <script src="vendor/bootstrap/js/popper.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+      <!--===============================================================================================-->
+      <script src="vendor/select2/select2.min.js"></script>
+      <!--===============================================================================================-->
+      <script src="vendor/daterangepicker/moment.min.js"></script>
+      <script src="vendor/daterangepicker/daterangepicker.js"></script>
+      <!--===============================================================================================-->
+      <script src="vendor/countdowntime/countdowntime.js"></script>
+      <!--===============================================================================================-->
+      <script src="js/main.js"></script>
+    </body>
+  </html>
+</html>
